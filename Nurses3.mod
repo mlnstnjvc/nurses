@@ -1,4 +1,4 @@
-# sestre
+# sestre 3
 set N;                          # skup medicinskih sestara (MS)
 set NE, within N;               # podskup iskusnih MS
 
