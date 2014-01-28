@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% load bootstrap_toolkit %}
+
+{% block content %}
+<h4>Existing parameters</h4>
+<table class="table table-striped">
+  <tr>
+    <th>Id</th>
+    <th>Number</th>
+    <th>Text</th>
+  </tr>
+  {% for param in params %}
+  <tr>
+    <td>{{ param.id_par }}</td>
+    <td>{{ param.number }}</td>
+    <td>{{ param.text }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% endblock %}
+  
